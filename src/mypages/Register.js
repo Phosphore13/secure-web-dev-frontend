@@ -40,14 +40,14 @@ function RegisterPage() {
       // Do something with the JWT here (e.g. save it to localStorage)
 
       // Redirect to locations page
-      navigate("/login");
+      navigate("/");
     } catch (error) {
       console.error("Error registering:", error.message);
     }
   };
 
   const handleLogin = (event) => {
-    navigate("/login");
+    navigate("/");
   };
 
   return (
